@@ -118,7 +118,7 @@ class GoogleDriveHelper:
                                      resumable=False)
         file_metadata = {
             'name': file_name,
-            'description': "👨‍🦱𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐔𝐬𝐢𝐧𝐠 𝐒𝐩𝐚𝐫𝐤𝐱𝐂𝐥𝐨𝐮𝐝-𝐆𝐝𝐫𝐢𝐯𝐞-𝐌𝐢𝐫𝐫𝐨𝐫𝐛𝐨𝐭",
+            'description': "✨ Uᴘʟᴏᴀᴅ Usɪɴɢ MᴘᴍSᴛᴜᴅɪᴏ - Sᴀᴢᴜɴᴇ ✨",
             'mimeType': mime_type,
         }
         if parent_id is not None:
@@ -558,9 +558,9 @@ class GoogleDriveHelper:
                     content += f'<b> | <a href="https://telegra.ph/{self.path[nxt_page]}">Next</a></b>'
                     nxt_page += 1
             Telegraph(access_token=telegraph_token).edit_page(path = self.path[prev_page],
-                                 title = '💞 𝐒𝐩𝐚𝐫𝐤𝐱𝐂𝐥𝐨𝐮𝐝-𝐆𝐝𝐫𝐢𝐯𝐞-𝐌𝐢𝐫𝐫𝐨𝐫𝐛𝐨𝐭 𝐒𝐞𝐚𝐫𝐜𝐡',
-                                 author_name='💓 𝐒𝐩𝐚𝐫𝐤𝐱𝐂𝐥𝐨𝐮𝐝-𝐆𝐝𝐫𝐢𝐯𝐞-𝐌𝐢𝐫𝐫𝐨𝐫𝐛𝐨𝐭',
-                                 author_url='https://github.com/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot',
+                                 title = '𝐒𝐀𝐙𝐔𝐍𝐄-𝐆-𝐌𝐢𝐫𝐫𝐨𝐫𝐛𝐨𝐭 𝐒𝐞𝐚𝐫𝐜𝐡',
+                                 author_name='💓 𝐒𝐀𝐙𝐔𝐍𝐄 𝐆 - 𝐂𝐋𝐎𝐍𝐄 𝐁𝐎𝐓 𝐁𝐘 𝐌𝐏𝐌𝐒𝐓𝐔𝐃𝐈𝐎',
+                                 author_url='https://t.me/Zer_0XD',
                                  html_content=content)
         return
 
@@ -643,8 +643,8 @@ class GoogleDriveHelper:
 
             for content in self.telegraph_content :
                 self.path.append(Telegraph(access_token=telegraph_token).create_page(
-                                                        title = '💞 𝐒𝐩𝐚𝐫𝐤𝐱𝐂𝐥𝐨𝐮𝐝-𝐆𝐝𝐫𝐢𝐯𝐞-𝐌𝐢𝐫𝐫𝐨𝐫𝐛𝐨𝐭 𝐒𝐞𝐚𝐫𝐜𝐡',
-                                                        author_name='💓 𝐒𝐩𝐚𝐫𝐤𝐱𝐂𝐥𝐨𝐮𝐝-𝐆𝐝𝐫𝐢𝐯𝐞-𝐌𝐢𝐫𝐫𝐨𝐫𝐛𝐨𝐭',
+                                                        title = '💞 𝐒𝐀𝐙𝐔𝐍𝐄-𝐆-𝐌𝐢𝐫𝐫𝐨𝐫𝐛𝐨𝐭 𝐒𝐞𝐚𝐫𝐜𝐡',
+                                                        author_name='💓 𝐒𝐀𝐙𝐔𝐍𝐄 𝐆 - 𝐂𝐋𝐎𝐍𝐄 𝐁𝐎𝐓 𝐁𝐘 𝐌𝐏𝐌𝐒𝐓𝐔𝐃𝐈𝐎',
                                                         author_url='https://github.com/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot',
                                                         html_content=content
                                                         )['path'])

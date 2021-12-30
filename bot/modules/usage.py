@@ -65,11 +65,11 @@ def dyno_usage(update, context):
             sendMessage(
                 f"<b>ℹ️ 𝐃𝐲𝐧𝐨 𝐔𝐬𝐚𝐠𝐞 ℹ️</b>\n\n<code>App name:{app.name}</code>\n"
                 f"🕐 <code>{AppHours}</code> <b>Hours</b> <code>{AppMinutes}</code> <b>Minutes\nPercentage: {AppPercent}%</b>\n\n"
-                "<b>⚠️ 𝐃𝐲𝐧𝐨 𝐑𝐞𝐦𝐚𝐢𝐧𝐢𝐧𝐠 ⚠️</b>\n"
+                "<b>⚠️ ᴅʏɴᴏ ʀᴇᴍᴀɴɪɴɢ ⚠️</b>\n"
                 f"🕐 <code>{hours}</code> <b>Hours </b> <code>{minutes}</code> <b>Minutes\nPercentage: {quota_percent}%</b>\n\n"
-                "<b>❌ 𝐄𝐬𝐭𝐢𝐦𝐚𝐭𝐞𝐝 𝐄𝐱𝐩𝐢𝐫𝐞𝐝 ❌</b>\n"
+                "<b>❌ ᴇsᴛɪᴍᴀᴛᴇᴅ ᴇxᴘɪʀᴇᴅ ❌</b>\n"
                 f"📅 <code>{day}</code> <b>Days</b>",
-                f"<b>👏 𝐂𝐫𝐞𝐝𝐢𝐭𝐬 : 𝐒𝐩𝐚𝐫𝐤𝐱𝐂𝐥𝐨𝐮𝐝 👏</b>\n"
+                f"<b>👏 ᴄʀᴇᴅɪᴛs : @Zer_0XD 👏</b>\n"
                 context.bot,
                 update
             )
